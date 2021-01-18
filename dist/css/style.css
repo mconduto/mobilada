@@ -1,128 +1,35 @@
 @font-face {
+  font-family: 'Gellix Medium';
+  src: url('GellixMedium.eot'); /* IE9 Compat Modes */
+  src: url('GellixMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('GellixMedium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('GellixMedium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('GellixMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GellixMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
+  font-family: 'GellixMedium';
+  src: url('GellixMedium.eot'); /* IE9 Compat Modes */
+  src: url('GellixMedium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('GellixMedium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('GellixMedium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('GellixMedium.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('GellixMedium.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+@font-face {
     font-family: 'Gellix Regular';
     font-style: normal;
     font-weight: normal;
     src: local('Gellix Regular'), url('GellixRegular.woff') format('woff');
     }
-    
-
-    @font-face {
-    font-family: 'Gellix Regular Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Regular Italic'), url('GellixRegularItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Thin';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Thin'), url('GellixThin.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Thin Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Thin Italic'), url('GellixThinItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Light';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Light'), url('GellixLight.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Light Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Light Italic'), url('GellixLightItalic.woff') format('woff');
-    }
-    
 
     @font-face {
     font-family: 'Gellix Medium';
     font-style: normal;
     font-weight: normal;
     src: local('Gellix Medium'), url('GellixMedium.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Medium Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Medium Italic'), url('GellixMediumItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix SemiBold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix SemiBold'), url('GellixSemiBold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix SemiBold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix SemiBold Italic'), url('GellixSemiBoldItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Bold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Bold'), url('GellixBold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Bold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Bold Italic'), url('GellixBoldItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix ExtraBold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix ExtraBold'), url('GellixExtraBold.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix ExtraBold Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix ExtraBold Italic'), url('GellixExtraBoldItalic.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Black';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Black'), url('GellixBlack.woff') format('woff');
-    }
-    
-
-    @font-face {
-    font-family: 'Gellix Black Italic';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Gellix Black Italic'), url('GellixBlackItalic.woff') format('woff');
     }
 
 html {
